@@ -1,0 +1,104 @@
+<svg viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2b2b2b"/>
+    </marker>
+    <marker id="dim" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="640" fill="#f6f4ef"/>
+  <rect x="8" y="8" width="984" height="624" fill="none" stroke="#ddd6c8" stroke-width="2"/>
+
+  <text x="500" y="38" text-anchor="middle" font-size="23" font-weight="bold" fill="#2b2b2b">Sociable + Salon — Top-View Schematic</text>
+  <text x="500" y="58" text-anchor="middle" font-size="13" fill="#888">(not to scale — see build guide for dimensions)</text>
+
+  <!-- direction of travel -->
+  <line x1="185" y1="92" x2="95" y2="92" stroke="#2b2b2b" stroke-width="2.5" marker-end="url(#arrow)"/>
+  <text x="190" y="96" font-size="12" fill="#2b2b2b">direction of travel</text>
+
+  <!-- ===== SOCIABLE ===== -->
+  <!-- track dimension -->
+  <line x1="118" y1="172" x2="118" y2="372" stroke="#555" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+  <text transform="rotate(-90 70 272)" x="70" y="272" text-anchor="middle" font-size="13" fill="#555">track ≈ 1.2 m</text>
+
+  <!-- steering link -->
+  <line x1="150" y1="168" x2="150" y2="376" stroke="#d35400" stroke-width="3" stroke-dasharray="7,5"/>
+  <text x="150" y="128" text-anchor="middle" font-size="12" fill="#d35400">steering link</text>
+  <line x1="150" y1="134" x2="150" y2="166" stroke="#d35400" stroke-width="1.2"/>
+
+  <!-- cross braces -->
+  <line x1="210" y1="194" x2="210" y2="350" stroke="#7f8c8d" stroke-width="8"/>
+  <line x1="300" y1="194" x2="300" y2="350" stroke="#7f8c8d" stroke-width="8"/>
+  <line x1="400" y1="194" x2="400" y2="350" stroke="#7f8c8d" stroke-width="8"/>
+  <text x="305" y="278" text-anchor="middle" font-size="11" fill="#5d6d6e">cross-braces ×3</text>
+
+  <!-- Bike A (captain) -->
+  <rect x="150" y="150" width="300" height="44" rx="22" fill="#e8b4b0" stroke="#b03a2e" stroke-width="2"/>
+  <rect x="172" y="148" width="8" height="48" fill="#2b2b2b"/>
+  <rect x="420" y="148" width="8" height="48" fill="#2b2b2b"/>
+  <text x="600" y="170" text-anchor="start" font-size="13" font-weight="bold" fill="#7b241c">Bike A — CAPTAIN</text>
+  <text x="600" y="187" text-anchor="start" font-size="12" fill="#7b241c">steers + brakes for the whole rig</text>
+  <line x1="455" y1="172" x2="595" y2="168" stroke="#b03a2e" stroke-width="1"/>
+
+  <!-- Bike B -->
+  <rect x="150" y="350" width="300" height="44" rx="22" fill="#aeb6bf" stroke="#2c3e50" stroke-width="2"/>
+  <rect x="172" y="348" width="8" height="48" fill="#2b2b2b"/>
+  <rect x="420" y="348" width="8" height="48" fill="#2b2b2b"/>
+  <text x="600" y="372" text-anchor="start" font-size="13" font-weight="bold" fill="#2c3e50">Bike B</text>
+  <text x="600" y="389" text-anchor="start" font-size="12" fill="#2c3e50">pedals (hands off the bars)</text>
+  <line x1="455" y1="372" x2="595" y2="372" stroke="#2c3e50" stroke-width="1"/>
+
+  <!-- hitch + drawbar -->
+  <circle cx="452" cy="372" r="7" fill="none" stroke="#2b2b2b" stroke-width="2.5"/>
+  <line x1="452" y1="372" x2="600" y2="300" stroke="#2b2b2b" stroke-width="4"/>
+  <text x="500" y="320" font-size="11" fill="#2b2b2b" transform="rotate(-26 500 320)">single-pivot hitch + drawbar</text>
+
+  <!-- ===== SALON TRAILER ===== -->
+  <text x="715" y="158" text-anchor="middle" font-size="14" font-weight="bold" fill="#6b5b3e">Salon trailer — 4 passengers max</text>
+
+  <!-- wheels -->
+  <rect x="612" y="200" width="42" height="10" fill="#2b2b2b"/>
+  <rect x="776" y="200" width="42" height="10" fill="#2b2b2b"/>
+  <rect x="612" y="390" width="42" height="10" fill="#2b2b2b"/>
+  <rect x="776" y="390" width="42" height="10" fill="#2b2b2b"/>
+
+  <!-- deck -->
+  <rect x="600" y="210" width="230" height="180" rx="6" fill="#efe7d6" stroke="#6b5b3e" stroke-width="2"/>
+
+  <!-- benches -->
+  <rect x="610" y="232" width="46" height="136" rx="4" fill="#b5895a" stroke="#6b5b3e" stroke-width="1.5"/>
+  <rect x="774" y="232" width="46" height="136" rx="4" fill="#b5895a" stroke="#6b5b3e" stroke-width="1.5"/>
+  <text transform="rotate(-90 633 300)" x="633" y="300" text-anchor="middle" font-size="11" fill="#4a3c28">bench · 2 seats</text>
+  <text transform="rotate(-90 797 300)" x="797" y="300" text-anchor="middle" font-size="11" fill="#4a3c28">bench · 2 seats</text>
+
+  <!-- table -->
+  <rect x="676" y="264" width="78" height="72" rx="4" fill="#5b8a72" stroke="#3f6b55" stroke-width="1.5"/>
+  <text x="715" y="304" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">game</text>
+  <text x="715" y="318" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">table</text>
+
+  <!-- trailer dims -->
+  <line x1="600" y1="412" x2="830" y2="412" stroke="#555" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+  <text x="715" y="430" text-anchor="middle" font-size="12" fill="#555">deck ≈ 1.2 m × 0.9 m</text>
+  <line x1="858" y1="205" x2="858" y2="395" stroke="#555" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+  <text transform="rotate(-90 884 300)" x="884" y="300" text-anchor="middle" font-size="12" fill="#555">track ≈ 1.0 m</text>
+
+  <!-- ===== LEGEND ===== -->
+  <line x1="120" y1="468" x2="880" y2="468" stroke="#ddd6c8" stroke-width="1.5"/>
+  <text x="120" y="492" font-size="13" font-weight="bold" fill="#2b2b2b">Legend</text>
+
+  <rect x="120" y="506" width="22" height="14" fill="#e8b4b0" stroke="#b03a2e"/>
+  <text x="150" y="518" font-size="12" fill="#2b2b2b">Sociable bikes — use the two stiffest diamond frames, matching wheel size</text>
+
+  <line x1="120" y1="538" x2="142" y2="538" stroke="#7f8c8d" stroke-width="8"/>
+  <text x="150" y="542" font-size="12" fill="#2b2b2b">Scaffold pipe + clamps — the load-bearing skeleton (sturdier choice, no welding)</text>
+
+  <line x1="120" y1="562" x2="142" y2="562" stroke="#d35400" stroke-width="3" stroke-dasharray="7,5"/>
+  <text x="150" y="566" font-size="12" fill="#2b2b2b">Rigid steering link — front bars joined so one captain steers both front wheels</text>
+
+  <rect x="120" y="582" width="22" height="14" fill="#b5895a" stroke="#6b5b3e"/>
+  <text x="150" y="594" font-size="12" fill="#2b2b2b">Plywood deck, facing benches, and central game table</text>
+
+  <text x="500" y="624" text-anchor="middle" font-size="11" font-style="italic" fill="#888">See sociable-salon-build.md for steps · sociable-salon.md for the full parts list</text>
+</svg>
