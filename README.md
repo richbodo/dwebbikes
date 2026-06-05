@@ -4,6 +4,8 @@ Pictures of the available bikes/parts in images, docs in /docs
 
 [Bike Fix List](fix-list.md) - list of parts we would want to just fix the bikes that are there.
 
+[Bike Triage](triage.md) - photo-based inventory of the bikes/parts, an estimate of how many are repairable with basic tools, and a difficulty ranking.
+
 [Sociable Salon Project](sociable-salon-build.md) - AI made plan - combines the two weirdest and most fun bike build projects into a comically driven social gathering vehicle.  
 
 The "Sociable" in sociable salon is a bunch of boards or metal with some u bolts holding two bikes bolted together side by side, handlebars linked - it's easier than it sounds - here is a [link to a diy design project for that](https://christophercarfi.com/2023/04/sociable-tandem.html).
