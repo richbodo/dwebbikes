@@ -65,6 +65,9 @@ Fill in the per-bike template at the bottom of this file as you go.
 - [ ] Chains — 3/32" (derailleur) × **2–3**
 - [ ] Master / quick links to match each chain width
 - [ ] Spare brake/shift small parts (barrel adjusters, ferrules, end caps)
+- [ ] lots of brake cables/housing (assuming everything is rusted out)
+- [ ] ferrules
+- [ ] quick links so we can rob chains 
 
 ---
 
@@ -84,6 +87,9 @@ Mark what's already in the kit; buy/borrow the rest.
 - [ ] Adjustable wrenches × 2
 - [ ] Bottom-bracket / headset tools (only if you plan to service bearings)
 - [ ] Truing stand *(optional — brake pads work as a poor-man's gauge)*
+- [ ] A few parts/tools I don't see in the repo:
+- [ ] pedal wrench (2 sided)
+- [ ] chain pliers
 
 ---
 
