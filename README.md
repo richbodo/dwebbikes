@@ -1,4 +1,12 @@
-## Dweb Bike Fixers Alte Holle - pictures and plans
+## Dweb Bike Fixers Alte Holle - Goals
+
+1) Build 10 working teen-ready bicycles for outings
+
+2) Offer a 90 minute bike-repair class for teens
+
+3) Do something insanely fun with the rest of the parts
+
+## Pictures and plans
 
 Pictures of the available bikes/parts in images, docs in /docs
 
