@@ -1,6 +1,6 @@
 ## Dweb Bike Fixers Alte Holle - Goals
 
-1) Build 10 working teen-ready bicycles for outings
+1) Build 12 working teen-ready bicycles for outings
 
 2) Offer a 90 minute bike-repair class for teens
 
