@@ -2,7 +2,7 @@
 
 1) Build 12 working teen-ready bicycles for outings
 
-2) Offer a 90 minute bike-repair class for teens
+2) Offer a 120 minute bike-repair class for teens
 
 3) Do something insanely fun with the rest of the parts
 
